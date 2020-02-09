@@ -1,0 +1,54 @@
+OBJECTVE:
+This program will allow the user to play hangman against the computerusing a list of words from a txt file.
+-A function that randomly selects a word from the text dictionary.
+-A function that5 takes inputs from the user wich will be each letter guessed.
+-A funtion that will take the letters guessed correctly and turn it into a string
+-We need to creat the varibles to store the users inputted data
+    -we need a varible for the word the coputer picks
+    -need to create a set of dta that holds the letters guessed wrongg and the letters guessed right by the user 
+-We need to display an intro to the program
+--Need to build a repetitive system, so that the user can keep guessing
+-If the player guesses wrong, a new part of the body is drawn, unit the lose.
+-We will add statements at the end and the beginning that will welcome and thank the user for player.
+
+PSEUDOCODE:
+
+def pick_random_word() :
+    This function picks a random word from the words dictionary
+
+#open the words dictionary
+
+#generate a random index
+
+#print out the word at that index
+
+def generate_word_string(word,letters_guessed) :
+
+This function generates the word display that shows which letters the user has guessed correctly
+
+    output = []
+ for letter in word:
+ if letter is guessed, add it to output else, and a _
+ return the output as a string
+ #check that the moduele we are using is currently that main module
+ 
+ if__name__=='__main__':
+ 
+ WORD = pick_random_word()
+ 
+ letters_to_guess = (WORD)
+ 
+ correct_letters_guessed = set ()
+ 
+ incorrect_letters guessed = set ()
+
+ num_guessed = 0 
+ 
+# welcome 
+
+#loop repeats y=the guessing sequence until the user guesses all the letters or 
+#check if we user already guessed that letter
+#check if the guess was that letter
+#check if the guess was correct 
+#print how much of the word is guessed, and how many letters are left
+#tell the user if they have won or lost
